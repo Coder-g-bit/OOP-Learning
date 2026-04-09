@@ -22,7 +22,7 @@ private:
             instance = nullptr;
         }
     }
-    //CSingleton(const CSingleton &) = delete;            // 禁止复制构造函数
+    CSingleton(const CSingleton &) = delete;            // 禁止复制构造函数
     CSingleton &operator=(const CSingleton &) = delete; // 禁止赋值运算符
 
 public:
